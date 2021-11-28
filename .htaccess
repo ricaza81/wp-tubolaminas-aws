@@ -133,6 +133,14 @@ RewriteCond "%{DOCUMENT_ROOT}/wp-content/cache/wp-rocket/%{HTTP_HOST}%{REQUEST_U
 RewriteRule .* "/wp-content/cache/wp-rocket/%{HTTP_HOST}%{REQUEST_URI}/index%{ENV:WPR_SSL}.html%{ENV:WPR_ENC}" [L]
 </IfModule>
 # END WP Rocket
+
+# BEGIN rlrssslReallySimpleSSL rsssl_version[5.2.0]
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{HTTP:CF-Visitor} '"scheme":"http"'
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+</IfModule>
+# END rlrssslReallySimpleSSL
 # BEGIN WordPress
 # Las directivas (líneas) entre «BEGIN WordPress» y «END WordPress» son
 # generadas dinámicamente y solo deberían ser modificadas mediante filtros de WordPress.
@@ -140,11 +148,10 @@ RewriteRule .* "/wp-content/cache/wp-rocket/%{HTTP_HOST}%{REQUEST_URI}/index%{EN
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
-RewriteBase /tubolaminas/
+RewriteBase /
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /tubolaminas/index.php [L]
+RewriteRule . /index.php [L]
 </IfModule>
-
 # END WordPress
