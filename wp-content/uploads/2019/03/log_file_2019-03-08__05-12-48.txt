@@ -1,0 +1,100 @@
+
+---Downloaded files---
+The import files for: Demo 1 were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://www.tubolaminas.com/web
+Data file = /home/tubolaminas/public_html/web/wp-content/themes/brixel/inc/import/one/content.xml
+Widget file = /home/tubolaminas/public_html/web/wp-content/themes/brixel/inc/import/one/widgets.wie
+Customizer file = /home/tubolaminas/public_html/web/wp-content/themes/brixel/inc/import/one/customizer.dat
+Redux files:
+brixel_theme_option -> /home/tubolaminas/public_html/web/wp-content/themes/brixel/inc/import/one/redux.json 
+
+
+------
+New AJAX call!
+[WARNING] Failed to import product_tag builders
+[WARNING] Failed to import product_cat Construction
+[WARNING] Failed to import product_tag construction
+[WARNING] Failed to import product_tag engineering
+[WARNING] Failed to import product_visibility exclude-from-catalog
+[WARNING] Failed to import product_visibility exclude-from-search
+[WARNING] Failed to import product_type external
+[WARNING] Failed to import product_visibility featured
+[WARNING] Failed to import product_type grouped
+[WARNING] Failed to import product_visibility outofstock
+[WARNING] Failed to import product_visibility rated-1
+[WARNING] Failed to import product_visibility rated-2
+[WARNING] Failed to import product_visibility rated-3
+[WARNING] Failed to import product_visibility rated-4
+[WARNING] Failed to import product_visibility rated-5
+[WARNING] Failed to import product_type simple
+[WARNING] Failed to import product_type variable
+[WARNING] Failed to import product_cat Engineering
+[WARNING] Failed to import product_cat Material
+[WARNING] Failed to import product_cat Solid
+[WARNING] Failed to import product_cat Tools
+
+
+------
+New AJAX call!
+[WARNING] Failed to import product_tag builders
+[WARNING] Failed to import product_cat Construction
+[WARNING] Failed to import product_tag construction
+[WARNING] Failed to import product_tag engineering
+[WARNING] Failed to import product_visibility exclude-from-catalog
+[WARNING] Failed to import product_visibility exclude-from-search
+[WARNING] Failed to import product_type external
+[WARNING] Failed to import product_visibility featured
+[WARNING] Failed to import product_type grouped
+[WARNING] Failed to import product_visibility outofstock
+[WARNING] Failed to import product_visibility rated-1
+[WARNING] Failed to import product_visibility rated-2
+[WARNING] Failed to import product_visibility rated-3
+[WARNING] Failed to import product_visibility rated-4
+[WARNING] Failed to import product_visibility rated-5
+[WARNING] Failed to import product_type simple
+[WARNING] Failed to import product_type variable
+[WARNING] Failed to import product_cat Engineering
+[WARNING] Failed to import product_cat Material
+[WARNING] Failed to import product_cat Solid
+[WARNING] Failed to import product_cat Tools
+
+
+---Importing widgets---
+rt_megamenu_widget : Sidebar does not exist in theme (moving widget to Inactive)
+
+Menú de Navegación - Design &amp; Style - Imported to Inactive
+Menú de Navegación - Create &amp; Organize - Imported to Inactive
+Menú de Navegación - Showcase &amp; Promote - Imported to Inactive
+
+Sidebar : 
+
+Buscar - Search - Imported
+Brixel Recent Posts With Thumbnail Widget - No Title - Imported
+Categorías - Categories - Imported
+Archivos - Archives - Imported
+Nube de etiquetas - Tags - Imported
+
+Footer | #1 : 
+
+Texto - About Brixel - Imported
+
+Footer | #2 : 
+
+Menú de Navegación - Important Links - Imported
+
+Footer | #3 : 
+
+Brixel Contact Box - No Title - Imported
+
+
+
+---Importing Redux settings---
+Redux settings import for: brixel_theme_option finished successfully!
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---pt-ocdi/after_import---
+
